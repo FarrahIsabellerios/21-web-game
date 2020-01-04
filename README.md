@@ -6,6 +6,7 @@ In this game of 21 the player will play against the computer. The goal of the ga
 ## Instructions
 Create an website to play as simplified version of the 21 game. Use the [Deck Of Cards API](https://deckofcardsapi.com/) to manage a deck of cards. 
 
+
 Your App/Website should have:
 - A header (h1) that reads "Simple 21"
 - A div, with a start game button inside, that will be replaced with the card images and current score
