@@ -25,22 +25,8 @@ document.body.appendChild(img)
 }
 }
 
-    // button.addEventListener("click", getCards)
 getCards()
 })
-
-
-//     let pokemonImage = pokemon.data.sprites.front_default
-//     let img = document.createElement("img")
-//     img.src = pokemonImage
-//     body.appendChild(img)
-
-// getMovies.forEach(movie => {
-//     let option = document.createElement("option");
-//     option.innerText = movie.title; 
-//     option.value = movie.url;
-//     select.appendChild(option)
-// })
 
 
 
