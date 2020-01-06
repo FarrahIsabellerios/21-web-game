@@ -1,0 +1,33 @@
+body {
+
+background-image: url("https://www.psdgraphics.com/file/cherry-wood.jpg");
+background-size: cover;
+}
+
+
+#coverCard{
+    background-image: image("brown card.jpg");
+
+}
+img{
+margin-bottom: 22%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 45%;
+
+
+
+}
+
+h1{
+    margin-top: 4%;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ color:gold;
+ font-size: 124px;
+ 
+    }
