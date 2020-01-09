@@ -26,14 +26,14 @@ h1{
  
     }
 
-    ul {
+    ul li{
 
-        display: inline;
-  
-        margin: 0;
-    
+        display: inline block;
         list-style: none;
-        padding-bottom: 80%;
+  
+
+
+   
     
 grid-row-start: 1;
 grid-column-start: 1;
@@ -52,3 +52,6 @@ flex-wrap: wrap;
     }
 
 
+#start{
+    cursor: pointer;
+}

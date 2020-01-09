@@ -1,24 +1,48 @@
 
 document.addEventListener("DOMContentLoaded", () => {
-    let button = document.querySelector("button")
+    let start= document.querySelector("#start")
     const getCards = async () => {
         try {
             let res = await axios.get("https://deckofcardsapi.com/api/deck/new/draw/?count=1");
-        
-            res.data.cards.forEach((el)=>{
+                res.data.cards.forEach((el)=>{
                 let ul= document.createElement("ul")
                 let li = document.createElement("li")
                 let img = document.createElement("img")
+                let grid = document.querySelector("#grid")
                 img.src = el.images.png
                li.appendChild(img)
                ul.appendChild(li)
-        document.body.appendChild(ul)
+       grid.appendChild(ul)
             })
         } catch(err) { console.log(err);  debugger;}                                                 
     }
    
+    const scoreKeeper = async ()=>{
+try{
 
-    button.addEventListener("click",getCards)
+let res = await axios.get("url")
+
+
+    
+}catch(err){
+    console.log(err)
+    debugger;
+}
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+    start.addEventListener("click",getCards)
 })
 
 
