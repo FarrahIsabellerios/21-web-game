@@ -4,22 +4,14 @@ background-image: url("https://www.psdgraphics.com/file/cherry-wood.jpg");
 background-size: cover;
 }
 
-
+/* 
 #coverCard{
-    background-image: image("brown card.jpg");
-
-}
-img{
-margin-bottom: 22%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    height: 45%;
+    background-image: image("brown card.jpg"); */
 
 
 
-}
+
+
 
 h1{
     margin-top: 4%;
@@ -29,5 +21,34 @@ h1{
     margin-right: auto;
  color:gold;
  font-size: 124px;
+ margin-bottom: 1%;
+ scroll-padding-bottom: 0px;
  
     }
+
+    ul {
+
+        display: inline;
+  
+        margin: 0;
+    
+        list-style: none;
+        padding-bottom: 80%;
+    
+grid-row-start: 1;
+grid-column-start: 1;
+flex-wrap: wrap;
+
+      }
+  
+
+    #grid{
+        width: 600px;
+  display: grid;
+  grid-template-columns: repeat(10, 100px);
+  grid-template-rows: repeat(10, 100px);
+  grid-gap: 10px;
+
+    }
+
+
